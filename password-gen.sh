@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # ================================================
-# Password Generator CLI
+# Bash Password Generator
 # Supports: macOS / Linux
 # Length: 12 to 48 characters
 # Security profiles: low, medium, high, ultra
@@ -26,7 +26,7 @@ error() {
 
 # ---------- HELP ----------
 show_help() {
-    echo -e "${blue}Password Generator CLI${reset}"
+    echo -e "${blue}Bash Password Generator${reset}"
     echo "Usage: passgen [-l <length>] [-p <profile>] [-c] [-i] [-v] [-h]"
     echo "Options:"
     echo "  -l <n>       Password length (12–48). Default: 16"
@@ -39,7 +39,7 @@ show_help() {
 
 # ---------- VERSION ----------
 show_version() {
-    echo "Password Generator CLI v$VERSION"
+    echo "Bash Password Generator v$VERSION"
 }
 
 # ---------- CHARSET PROFILES ----------
